@@ -2,7 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 .main{
     margin: 0px;
@@ -70,11 +71,15 @@ img{
     
 }
 .con{
+    font-size: 18px;
     padding-left: 10px;
+    color: black;
+    text-decoration: none;
 }
 p{display: flex;
     text-align: justify;
     margin-top: 10px;
+    margin: 20px;
 }
 .about-sec{
     
@@ -167,9 +172,10 @@ input, textarea{
     padding-bottom: 20px;
 }
 textarea{
-    width: 100%;
+    width: 80%;
 }
 button{
+    display: block;
     border-radius: 40px;
     padding: 15px;
     /* color: #e3e9f2; */
@@ -185,4 +191,54 @@ button:hover{
 .footer-form
 {
     width: 60%;
+    margin-right: 10%;
+}
+
+/* .footer-info{
+    /* margin-left: 5%; *
+} */
+.info-social{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: rgb(114, 246, 246);
+    padding: 10px;
+}
+.logo{
+    margin-right: 10px;
+}
+.soc-lis {
+    margin-left: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.soc-lis a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+}
+.content-link a {
+    color: black;
+    text-decoration: none; 
+  }
+.logo:hover{
+    box-shadow: 0px 0px 10px rgb(129, 246, 246);
+    border-color: rgb(129, 246, 246);
+}
+.soc-lis:hover{
+    box-shadow: 0px 0px 10px rgb(129, 246, 246);
+    border-color: rgb(129, 246, 246);
+    border-radius: 40px;
+}
+.home-icon:hover{
+    box-shadow: 0 0 8px black;
+    border-radius: 50px;
+}
+.con:hover{
+    text-shadow: 0 0 1px;
 }
