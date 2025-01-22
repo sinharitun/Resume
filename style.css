@@ -50,8 +50,7 @@ img{
     top: 20px; /* Fix the navbar to the top of the page when scrolling */
     z-index: 1000;
   
-    overflow: scroll;
-    overflow-y: hidden;
+    
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
