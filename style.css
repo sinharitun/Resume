@@ -50,7 +50,8 @@ img{
     top: 20px; /* Fix the navbar to the top of the page when scrolling */
     z-index: 1000;
   
-    overflow: hidden;
+    overflow: scroll;
+    overflow-y: hidden;
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -63,7 +64,14 @@ img{
     padding-bottom: 10px;
     align-items: center;
     background-color: rgb(251, 251, 251);
+    overflow-x: scroll;
+    scrollbar-width: none;
+    
 }
+
+.Navigation::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
 
 .content-link{
     display: flex;
@@ -141,6 +149,7 @@ h4
 .footer
 {
     display: flex;
+    flex-wrap: wrap;
     padding: 30px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
